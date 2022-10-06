@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>List of journalists | ToJournalists.com</title>
+<title>Copyright notice and other information | ToJournalists.com</title>
 
 <meta name="generator" content="Hugo Eureka 0.9.3" />
 <link rel="stylesheet" href="https://www.tojournalists.com/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css">
@@ -140,23 +140,19 @@ a:active {
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.tojournalists.com/images/The-New-York-Times_hub7a062a8f836a98d467bb0cc43a57071_277106_180x180_fill_q75_box_center.jpg">
 
 <meta name="description"
-  content="List of journalists to write to This is a non-exhaustive list of journalists I might write to. I already wrote to some of them. I just don’t want to forget to write to anyone. That’s why I am listing some of the names I want to remember.
-I have another list, more exhaustive, which is not published online.
-In no particular order:
-Kevin Granville, The New York Times.
-David Enrich, The New York Times.
-Mike Forsythe, The New York Times.">
+  content="Regarding the author of this website If you want to find out more about who I am, please visit X-v-France.com.
+Copyright notice about the picture of The New York Times building that I use on this website. This picture of The New York Times building is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported https://creativecommons.org/licenses/by-sa/3.0/deed.en. Follow this link for more information.">
 
 
 
-<meta property="og:title" content="List of journalists | ToJournalists.com" />
+<meta property="og:title" content="Copyright notice and other information | ToJournalists.com" />
 <meta property="og:type" content="website" />
 
 
 <meta property="og:image" content="https://www.tojournalists.com/images/The-New-York-Times.jpg">
 
 
-<meta property="og:url" content="https://www.tojournalists.com/journalists/" />
+<meta property="og:url" content="https://www.tojournalists.com/copyright/" />
 
 
 
@@ -172,6 +168,12 @@ Mike Forsythe, The New York Times.">
 
 
 
+<meta property="og:locale:alternate" content="fr" />
+
+<meta property="og:locale:alternate" content="zh" />
+
+
+
 
 <meta property="og:site_name" content="ToJournalists.com" />
 
@@ -182,10 +184,10 @@ Mike Forsythe, The New York Times.">
 
 
 
-<meta property="article:section" content="journalists" />
+<meta property="article:section" content="copyright" />
 
 
-<link rel="alternate" type="application/rss+xml" href="https://www.tojournalists.com/journalists/index.xml" title="ToJournalists.com" />
+<link rel="alternate" type="application/rss+xml" href="https://www.tojournalists.com/copyright/index.xml" title="ToJournalists.com" />
 
 
   <body class="flex min-h-screen flex-col">
@@ -207,7 +209,7 @@ Mike Forsythe, The New York Times.">
     <div id="target"
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/journalists/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Journalists</a>
+            <a href="/journalists/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Journalists</a>
             <a href="/open-letters/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Open letters</a>
             <a href="https://www.ecthrwatch.org/timeline/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Timeline</a>
             <a href="https://www.ecthrwatch.org/links/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Links</a>
@@ -225,6 +227,20 @@ Mike Forsythe, The New York Times.">
                     <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+            <div class="relative pt-4 ps-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="ps-1">English</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://www.tojournalists.com/copyright/">English</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://www.auxjournalistes.com/copyright/">French - Français</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://www.xinwenjizhe.org/copyright/">Chinese - 简体中文</a>
                 </div>
             </div>
         </div>
@@ -254,6 +270,7 @@ Mike Forsythe, The New York Times.">
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script>
 </div>
@@ -262,75 +279,12 @@ Mike Forsythe, The New York Times.">
         <div class="pl-scrollbar">
           <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
   <article class="prose mx-6 my-8">
-  <h1>List of journalists</h1>
+  <h1>Copyright notice and other information</h1>
   
-    <h1 id="list-of-journalists-to-write-to">List of journalists to write to</h1>
-<p>This is a non-exhaustive list of journalists I might write to. I already wrote to some of them. I just don’t want to forget to write to anyone. That’s why I am listing some of the names I want to remember.</p>
-<p>I have another list, more exhaustive, which is not published online.</p>
-<p>In no particular order:</p>
-<p><a href="https://twitter.com/kevingranville">Kevin Granville</a>, The New York Times.</p>
-<p><a href="https://twitter.com/davidenrich">David Enrich</a>, The New York Times.</p>
-<p><a href="https://twitter.com/PekingMike">Mike Forsythe</a>, The New York Times.</p>
-<p><a href="https://twitter.com/muyixiao">Muyi Xiao</a>, The New York Times.</p>
-<p><a href="https://mobile.twitter.com/julie_creswell">Julie Creswell</a>, The New York Times.</p>
-<p><a href="https://mobile.twitter.com/dgelles">David Gelles</a>, The New York Times.</p>
-<p><a href="https://twitter.com/ConstantMeheut">Constant Méheut</a>, The New York Times.</p>
-<p><a href="https://twitter.com/Smerelman">Stephen Merelman</a>, Criminal justice editor, New York Times metro desk.</p>
-<p><a href="https://twitter.com/timrace">Tim Race</a>, former business editor in London for The New York Times.</p>
-<p><a href="https://mobile.twitter.com/LetaHong">Dr. Leta Hong Fincher 洪理达</a>.</p>
-<p><a href="https://mobile.twitter.com/rebecca_proxy">Rebecca Sherratt</a>, “Editor of Insightia Monthly, the comprehensive publication for all things governance, stewardship, and shareholder engagement.”</p>
-<p><a href="https://twitter.com/RuthSmeeth">Ruth Smeeth</a>.</p>
-<p><a href="https://twitter.com/martinbright">Martin Bright</a>.</p>
-<p><a href="https://twitter.com/murraymatt">https://twitter.com/murraymatt</a>, The Wall Street Journal.</p>
-<p><a href="https://twitter.com/heatherhaddon">Heather Haddon</a>, The Wall Street Journal.</p>
-<p><a href="https://twitter.com/juliejargon">Julie Jargon</a>, The Wall Street Journal.</p>
-<p><a href="https://twitter.com/sgurman">Sadie Gurman</a>, Justice Department Reporter at The Wall Street Journal.</p>
-<p><a href="https://twitter.com/joannachiu">Joanna Chiu</a>, Toronto Star.</p>
-<p><a href="https://twitter.com/dakekang">Dake Kang</a>, Associated Press.</p>
-<p><a href="https://twitter.com/BarbaraOrtutay">Barbara Ortutay</a>, Associated Press.</p>
-<p><a href="https://twitter.com/APFactCheck">AP Fact Check</a>, <a href="mailto:FactCheck@ap.org">FactCheck@ap.org</a>.</p>
-<p><a href="https://twitter.com/luoshanji">Tanner Brown</a>.</p>
-<p><a href="https://twitter.com/courbet_julien">Julien Courbet</a>.</p>
-<p><a href="https://twitter.com/CPVA">CaPeutVousArriver</a>.</p>
-<p><a href="https://twitter.com/JeromeHourdeaux">Jérôme Hourdeaux</a>.</p>
-<p>Sophie Malibeaux RFI.</p>
-<p>Frédéric Schaeffer.</p>
-<p><a href="https://twitter.com/guillemettef">Guillemette Faure</a>.</p>
-<p><del><a href="https://twitter.com/jordanpouille">Jordan Pouille</a>.</del></p>
-<p><a href="https://twitter.com/chloe8triomphe">Chloé Triomphe</a>.</p>
-<p><a href="https://twitter.com/yangmeiRFI">Yang Mei RFI</a>.</p>
-<p><a href="https://twitter.com/QianHeParis">何•蒨 Hé Qiàn</a>, Director People&rsquo;s Daily Online France.</p>
-<p><a href="https://twitter.com/aowencao">Aowen Cao</a>, speaks French.</p>
-<p><a href="https://twitter.com/Katmyu">Katrina Yu</a>, Al Jazeera English, China correspondent.</p>
-<p><a href="https://twitter.com/SheridanAsia">Sheridan Prasso</a>, Bloomberg business in Washington D.C.</p>
-<p><a href="https://twitter.com/mstandaert">Michael Standaert</a>.</p>
-<p><a href="https://twitter.com/BertuzLuca">Luca Bertuzzi</a>.</p>
-<p><a href="https://twitter.com/evadou">Eva Dou</a>, Washington Post.</p>
-<p><a href="https://twitter.com/gzmimi">Mimi Lau</a>, Journalist covering human rights, civil society, religious &amp; ethnic affairs in China for SCMP.</p>
-<p><a href="https://twitter.com/YuanfenYang">Yuan Yang</a>, FT Beijing deputy bureau chief.</p>
-<p><a href="https://twitter.com/ChassNews">Anne-Sylvaine Chassany</a>, Financial Times World News Editor.</p>
-<p><a href="https://twitter.com/JoshuaDummer">Joshua Dummer</a>.</p>
-<p><a href="https://twitter.com/michaelbellart">Michael Bellart</a>. <a href="mailto:michaelbellart@caixin.com">michaelbellart@caixin.com</a>.</p>
-<p><a href="https://twitter.com/rebeccaludavis">Rebecca Davis</a>, Freelance journalist writing on China.</p>
-<!-- rdavisjournalist@gmail.com -->
-<!-- https://www.linkedin.com/in/rebeccaludavis/ -->
-<p><a href="https://twitter.com/KyranoudiD">Dimitra Kyranoudi</a>, DW Europe.</p>
-<p><a href="https://www.spiegel.de/impressum/autor-eaef643d-0001-0003-0000-000000000463">Annette Langer, DER SPIEGEL</a>.</p>
-<!-- Annette.Langer@spiegel.de -->
-<p><a href="https://twitter.com/WDRinvestigativ">WDR Investigativ</a>. <a href="mailto:investigativ@wdr.de">investigativ@wdr.de</a>.</p>
-<p><a href="https://twitter.com/georgrestle">Georg Restle</a>.</p>
-<p><a href="https://mobile.twitter.com/mastersjr">Jonathan Masters</a>.</p>
-<p><a href="https://twitter.com/ellisfroeder">Ellis Fröder</a>.</p>
-<p><a href="https://twitter.com/NewsEchr">News ECHR</a>.</p>
-<p><a href="https://twitter.com/article19europe">ARTICLE 19 ECA</a>.</p>
-<p><a href="https://twitter.com/MediaFreedomEU">Media Freedom Rapid Response (MFRR)</a>.</p>
-<p><a href="https://twitter.com/OCCRP">Organized Crime and Corruption Reporting Project</a>.</p>
-<p><a href="https://twitter.com/EU_AML">Anti-Money Laundering Europe (AME)</a>.</p>
-<p><a href="https://twitter.com/HelsinkiComm">Helsinki Commission</a>.</p>
-<p><a href="https://twitter.com/RyleGerard">https://twitter.com/RyleGerard</a></p>
-<p><a href="https://twitter.com/ICIJorg">https://twitter.com/ICIJorg</a></p>
-<p><a href="https://twitter.com/cdubois22">https://twitter.com/cdubois22</a></p>
-<!-- https://www.leparisien.fr/faits-divers/le-jeu-de-mcdo-ressemble-trop-a-une-loterie-22-03-2002-2002916999.php -->
+    <h2 id="regarding-the-author-of-this-website">Regarding the author of this website</h2>
+<p>If you want to find out more about who I am, please visit <a href="https://www.x-v-france.com">X-v-France.com</a>.</p>
+<h2 id="copyright-notice-about-the-picture-of-the-new-york-times-building-that-i-use-on-this-website">Copyright notice about the picture of The New York Times building that I use on this website.</h2>
+<p><a href="https://commons.wikimedia.org/wiki/File:Nytimes_hq.jpg">This picture of The New York Times building</a> is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">https://creativecommons.org/licenses/by-sa/3.0/deed.en</a>. <a href="https://commons.wikimedia.org/wiki/File:Nytimes_hq.jpg">Follow this link for more information</a>.</p>
 
   
 </article>
